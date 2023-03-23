@@ -1,5 +1,6 @@
-*{margin: 0; padding: 0
-    ; box-sizing: border-box;}
+*{margin: 0;
+ padding: 0;
+  box-sizing: border-box;}
 
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
@@ -50,6 +51,7 @@ header nav { display: flex;
     rgba(0,0,0,0.5)
     ),url(../img/artificial-intelligence-codes-developing-screen.jpg);
 }
+
 
 
 .container-algunos-trabajos-body{
@@ -116,7 +118,6 @@ header nav { display: flex;
 }
 
 
-header nav ul li a {color: darkgreen;}
 
 body {background-color: black;}
 
@@ -136,9 +137,82 @@ header div {display: flex;}
 
 section.about {display: flex; flex-direction: row;}
 
-
+.header-index{
+    max-width: 1400px;
+    margin: auto;
+}
 
 
 @media (min-width: 720px){
 div .header-index div { flex-direction: column};
+}
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    
+}
+
+.pie-pagina .grupo-1 .box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pie-pagina .grupo-1 .redes-sociales a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: aqua;
+margin-right: 10px;
+background-color: rgb(43, 43, 43);
+border-radius: 10px;
+box-shadow:  5px 10px 15px rgba(17, 202, 183, 0.658);
+transition: all 1s ease;
+}
+
+
+.pie-pagina .grupo-1 .redes-sociales a:hover{
+    box-shadow:  5px 20px 30px rgba(114, 210, 200, 0.765);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: rgb(37, 37, 37);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(154, 154, 154);
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 25px 0px;
+
+    
+}
+    .container-carta{
+        flex-direction: column;
+    }
+    
+
 }
