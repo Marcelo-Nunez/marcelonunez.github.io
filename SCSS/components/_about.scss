@@ -1,0 +1,18 @@
+.main-about{
+    display: flex;
+    flex-direction: column;
+    .h1-about{
+        @extend %dflexcolumn;
+        align-items: center;
+    }
+}
+
+.container-about {
+    display: flex;
+    .container-about-div p {
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+

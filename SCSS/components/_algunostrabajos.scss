@@ -1,0 +1,61 @@
+
+.container-algunos-trabajos-body{
+    display: flex;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url(../img/artificial-intelligence-codes-developing-screen.jpg);
+}
+
+
+.container-carta{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.algunos-trabajos h1 {
+   @extend %dflexcolumn;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contenido{
+    @extend %dflexcolumn;
+    align-items: center;
+    text-align: center;
+}
+.carta{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(34, 36, 36);
+    box-shadow:  5px 10px 15px rgba(17, 202, 183, 0.658);
+    cursor: default;
+    transition: all 1s ease;
+    
+}
+
+.carta:hover{
+    box-shadow:  0px 20px 50px rgba(36, 182, 231, 0.895);
+
+}
+
+
+.cartas-algunos-trabajos-todas:first-child{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url(./img/gimnasio.jpg)
+}
+

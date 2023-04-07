@@ -1,0 +1,45 @@
+.header-index{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+@media (min-width: 720px){
+div .header-index div { flex-direction: column};
+}
+
+.div-main-icon{
+    display: flex; 
+    align-items: center;
+}
+
+header div {display: flex;} 
+
+nav{
+    display: flex;
+    gap: 15px;
+   
+}
+
+ul {
+    @extend %dflexrow;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+.logo{ gap: 20px;
+    padding: 10px 20px;}
+
+header nav {
+    @extend %dflexrow;
+    justify-content: end;
+    padding-bottom: 25px;
+}
+

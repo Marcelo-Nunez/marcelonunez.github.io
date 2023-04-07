@@ -1,0 +1,46 @@
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+       .box{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .redes-sociales a{
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: aqua;
+                margin-right: 10px;
+                background-color: rgb(43, 43, 43);
+                border-radius: 10px;
+                box-shadow:  5px 10px 15px rgba(17, 202, 183, 0.658);
+                transition: all 1s ease;
+            }
+        }
+    }
+}
+
+.pie-pagina .grupo-1 .redes-sociales a:hover{
+    box-shadow:  5px 20px 30px rgba(114, 210, 200, 0.765);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: rgb(37, 37, 37);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(154, 154, 154);
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 10px;
+}

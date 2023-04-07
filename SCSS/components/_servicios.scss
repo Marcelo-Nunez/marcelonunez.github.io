@@ -1,0 +1,10 @@
+.main-servicios {
+    @extend %dflexrow;
+    justify-content: center;
+    gap: 10%;
+    font-size: small;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    flex-wrap: wrap;
+    text-align: center;
+}
